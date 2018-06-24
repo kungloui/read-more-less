@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Form validation</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="read_more_less.js"></script>
+  </head>
+  <body style="height:100vh;">
+
+    <div class="col-xs-4">
+      <img class="reference-img" style="max-width:150px;" src="img1.jpg">
+      <h3 class="reference-title">Lorem ipsum 1</h3>
+      <p class="reference-text">Bacon ipsum dolor amet alcatra cow beef meatball, ball tip flank leberkas prosciutto ham hock doner tri-tip landjaeger short ribs bacon. Strip steak jerky filet mignon pig landjaeger, salami shankle leberkas tongue pork belly kielbasa fatback boudin venison pastrami. Ground round short ribs frankfurter hamburger pork belly buffalo. Tenderloin short loin boudin, doner jowl porchetta pork loin kevin pig alcatra biltong hamburger. Drumstick meatloaf pork belly boudin shankle.</p>
+      <button class="btn read-more">Läs mer</button>
+    </div>
+    <div class="col-xs-4">
+      <img class="reference-img" style="max-width:150px;" src="img2.jpg">
+      <h3 class="reference-title">Lorem ipsum 2</h3>
+      <p class="reference-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut sodales libero. Ut eu gravida elit. Pellentesque congue sit amet elit vel faucibus. Donec elementum, velit ultricies condimentum ultrices, odio nulla viverra nunc, nec pharetra tellus nisi id orci. Suspendisse blandit auctor tellus eu molestie. Ut euismod orci ac justo ullamcorper, quis consequat lectus maximus. Nullam iaculis molestie velit, vitae malesuada lorem tristique a. Etiam iaculis nulla non ipsum venenatis, vitae tincidunt mi fermentum. Donec ut libero a urna rhoncus dictum sed id dui. Nunc ullamcorper sit amet velit id lacinia. Nam in sapien ipsum. Vivamus lacinia ipsum non dolor elementum, in scelerisque arcu eleifend.</p>
+      <button class="btn read-more">Läs mer</button>
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img style="max-width:150px;" class="modal-img" src="">
+            <p class="modal-text"></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Save changes</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+
+  </html>
